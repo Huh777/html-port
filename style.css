@@ -1,0 +1,71 @@
+body{
+     background-image: url(water-pink-background-soothing.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+    }
+.a{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 300px;
+   
+}
+.b{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+.c{
+    text-align: center;
+    font-size: 50px;
+}
+.d{
+    background-color: #FFE3E1;
+    padding: 20px;
+    color: #FF9494;
+}
+.e{
+    text-align: center;
+    padding: 200px;
+    background-color: #FFF5E4;
+    display: flex;
+    flex-direction: column;
+}
+.e > h2{
+    color: #FFD1D1;
+}
+.e > h3{
+    color: #FFD1D1;
+}
+.e > img{
+    float: left;
+}
+.z{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.z > img{
+    float: left;
+}
+.o{
+    background-color: #FF9494;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+.button {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
